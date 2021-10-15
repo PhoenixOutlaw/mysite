@@ -1,0 +1,36 @@
+.headercontainer {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #0c111a;
+  color: white;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 6px 7px rgba(0, 0, 0, 0.479);
+}
+.contacts {
+  margin-right: 10px;
+}
+.contacts > .MuiSvgIcon-root,
+.contacts > a > .MuiSvgIcon-root {
+  height: 34px;
+  width: 34px;
+  padding-right: 10px;
+  color: white;
+}
+.midnav {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.midnav > a > img {
+  object-fit: contain;
+  height: 60px;
+  margin-left: 10px;
+  cursor: pointer;
+}
