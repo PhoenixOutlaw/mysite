@@ -20,13 +20,21 @@
   width: 34px;
   padding-right: 10px;
   color: white;
+  cursor: pointer;
+}
+.contacts>a{
+  text-decoration: none;
+  color: white;
+}
+.contacts > .MuiSvgIcon-root:hover,
+.contacts > a > .MuiSvgIcon-root:hover {
+  color: rgba(209, 209, 209, 0.836);
 }
 .midnav {
   height: inherit;
   display: flex;
   align-items: center;
   overflow: hidden;
-  cursor: pointer;
 }
 .midnav > a > img {
   object-fit: contain;

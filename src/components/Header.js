@@ -2,6 +2,8 @@ import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import resume from '../HarshYadav_Resume.pdf'
 import "../css/header.css";
 
 export const Header = () => {
@@ -17,6 +19,9 @@ export const Header = () => {
         </a>
       </div>
       <div className="contacts">
+        <a href={resume} download>
+          RESUME<AssignmentIcon/>
+        </a>
         <a href="#fo">
           <LocalPhoneIcon />
         </a>
